@@ -15,6 +15,9 @@
 //= require turbolinks
 //= require_tree .
 // direct_uploads.js
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 
 addEventListener("direct-upload:initialize", event => {
     const { target, detail } = event
